@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Your Genres</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>What Genres do you like?</h1>
+  <div class="grid-container">
+    <div class="genre" onclick="toggleGenre(this, 'pop')">
+      <img src="pictures/pop.jpg" alt="Pop" class="shared-image-style">
+      <p>Pop</p>
+    </div>
+    <div class="genre" onclick="toggleGenre(this, 'hiphop')">
+      <img src="pictures/hip hop.jpg" alt="Hip Hop" class="shared-image-style">
+      <p>Hip Hop</p>
+    </div>
+    <div class="genre" onclick="toggleGenre(this, 'rock')">
+      <img src="pictures/rock.png" alt="Rock" class="shared-image-style">
+      <p>Rock</p>
+    </div>
+    <div class="genre" onclick="toggleGenre(this, 'rnb')">
+      <img src="pictures/rnb.jpg" alt="R&B" class="shared-image-style">
+      <p>RnB</p>
+    </div>
+    <div class="genre" onclick="toggleGenre(this, 'country')">
+      <img src="pictures/country.webp" alt="Country" class="shared-image-style">
+      <p>Country</p>
+    </div>
+    <div class="genre" onclick="toggleGenre(this, 'house')">
+      <img src="pictures/house.avif" alt="House" class="shared-image-style">
+      <p>House</p>
+    </div>
+
+  </div>
+  <button onclick="saveGenres()">See Playlists</button>
+  <script src="script2.js"></script>
+</body>
+</html>
